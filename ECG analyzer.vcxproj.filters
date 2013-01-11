@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{fc53d5c4-d67f-4b78-96f4-bc533c0f05bd}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{177f3fae-b08d-42e8-b7e2-f9da89f8636d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\wfdb">
+      <UniqueIdentifier>{1d94a793-5d3a-47a8-8080-d43683c40d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\wfdb">
+      <UniqueIdentifier>{a935d3d4-7e1b-41b1-936e-649463f6a776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\plots">
+      <UniqueIdentifier>{cb0cd8ff-fb42-497c-919b-2b8fffbad31c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\plots">
+      <UniqueIdentifier>{5c274814-a3fa-4742-80e6-d84443733e12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ecganalyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ecganalyzer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ecganalyzer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_ecganalyzer.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ECGSignal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ECGRs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ECGWaves.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ECGHRV1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ECGHRV2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EGHRVDFT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ECGHRVDFA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ECGClasses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ECGST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ECGTWave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ECGHRT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ECGController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QRSClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wfdb\annot.c">
+      <Filter>Source Files\wfdb</Filter>
+    </ClCompile>
+    <ClCompile Include="wfdb\calib.c">
+      <Filter>Source Files\wfdb</Filter>
+    </ClCompile>
+    <ClCompile Include="wfdb\signal.c">
+      <Filter>Source Files\wfdb</Filter>
+    </ClCompile>
+    <ClCompile Include="wfdb\wfdbinit.c">
+      <Filter>Source Files\wfdb</Filter>
+    </ClCompile>
+    <ClCompile Include="wfdb\wfdbio.c">
+      <Filter>Source Files\wfdb</Filter>
+    </ClCompile>
+    <ClCompile Include="ECGChannelInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RPeaksDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaselineRemoval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ecg2ch.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ecg2ch.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ecgch.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ecgch.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="plots\ecg2ch.cpp">
+      <Filter>Source Files\plots</Filter>
+    </ClCompile>
+    <ClCompile Include="plots\ecgch.cpp">
+      <Filter>Source Files\plots</Filter>
+    </ClCompile>
+    <ClCompile Include="tri_logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HRV1Analyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AboutWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AboutWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_synczoomer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_synczoomer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="plots\synczoomer.cpp">
+      <Filter>Source Files\plots</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_hrt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_hrt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_plothrvtriangle.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_plothrvtriangle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_plotpoincare.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_plotpoincare.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="plots\hrt.cpp">
+      <Filter>Source Files\plots</Filter>
+    </ClCompile>
+    <ClCompile Include="plots\plothrvtriangle.cpp">
+      <Filter>Source Files\plots</Filter>
+    </ClCompile>
+    <ClCompile Include="plots\plotpoincare.cpp">
+      <Filter>Source Files\plots</Filter>
+    </ClCompile>
+    <ClCompile Include="HRTAnalyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HRTData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ecganalyzer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ecganalyzer.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ecganalyzer.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="plots\ecg2ch.h">
+      <Filter>Header Files\plots</Filter>
+    </CustomBuild>
+    <CustomBuild Include="plots\ecgch.h">
+      <Filter>Header Files\plots</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AboutWindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AboutWindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="plots\synczoomer.h">
+      <Filter>Header Files\plots</Filter>
+    </CustomBuild>
+    <CustomBuild Include="plots\hrt.h">
+      <Filter>Header Files\plots</Filter>
+    </CustomBuild>
+    <CustomBuild Include="plots\plothrvtriangle.h">
+      <Filter>Header Files\plots</Filter>
+    </CustomBuild>
+    <CustomBuild Include="plots\plotpoincare.h">
+      <Filter>Header Files\plots</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_ecganalyzer.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ECGSignal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ECGRs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ECGWaves.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ECGHRV1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ECGHRV2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EGHRVDFT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ECGHRVDFA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ECGClasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ECGST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ECGTWave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ECGHRT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ECGController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QRSClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModulesMethods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModulesInterfaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wfdb\ecgcodes.h">
+      <Filter>Header Files\wfdb</Filter>
+    </ClInclude>
+    <ClInclude Include="wfdb\ecgmap.h">
+      <Filter>Header Files\wfdb</Filter>
+    </ClInclude>
+    <ClInclude Include="wfdb\wfdb.h">
+      <Filter>Header Files\wfdb</Filter>
+    </ClInclude>
+    <ClInclude Include="wfdb\wfdblib.h">
+      <Filter>Header Files\wfdb</Filter>
+    </ClInclude>
+    <ClInclude Include="ECGChannelInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RPeaksDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaselineRemoval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nullstream.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tri_logger.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HRV1Analyzer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AboutWindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HRTAnalyzer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HRTData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+  </ItemGroup>
+</Project>
